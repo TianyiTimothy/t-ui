@@ -1,6 +1,9 @@
 <template>
-  <div>my div</div>
-  <Frank></Frank>
+  <div>
+    Navigation | <router-link to="/">Frank</router-link> | <router-link to="/frank2">Frank2</router-link>
+  </div>
+  <hr>
+  <router-view>
 </template>
 
 <script>
